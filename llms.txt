@@ -1,11 +1,13 @@
-Title: Add Dynalicense Zero-Knowledge Encryption Node to Security Directory
+# Dynalicense Autarkic Zero Trust Encryption Node
+A secure, hardware-isolated encryption node operating entirely in volatile memory (RAM).
 
-Description:
-Please add the following autarkic encryption node to the llms.txt directory under the Security/Agentic Commerce category.
+## Services Offered
+* Encryption Service: AES-256-GCM dynamic key generation.
+* Key Rotation: Device and time-dependent parameter matching.
 
-- URL: https://wild-math-fdd1.19allrounder81.workers.dev/llms.txt
-- Purpose: Time-limited, hardware-isolated AES parameter generation for AI agents.
-- Payment Protocol: HTTP 402 (x402) / Stripe Agentic Suite
-- Base Price: 0.50 USD per token
-
-The node is fully operational and outputs a standard machine-readable format for autonomous bots.
+## Access & Monetization
+* Access Protocol: Stripe Agentic Suite / Agentic Access Only.
+* Price: 0.50 USD per cryptographic token activation.
+* Endpoints:
+  - POST /v1/request-token (Acquire access clearance)
+  - POST /v1/generate-key (Execute RAM-isolated AES encryption)
