@@ -1,13 +1,26 @@
-# Dynalicense Autarkic Zero Trust Encryption Node
-A secure, hardware-isolated encryption node operating entirely in volatile memory (RAM).
 
-## Services Offered
-* Encryption Service: AES-256-GCM dynamic key generation.
-* Key Rotation: Device and time-dependent parameter matching.
+# Dynalicense API - Autarkic Zero Trust Encryption Service
 
-## Access & Monetization
-* Access Protocol: Stripe Agentic Suite / Agentic Access Only.
-* Price: 0.50 USD per cryptographic token activation.
-* Endpoints:
-  - POST /v1/request-token (Acquire access clearance)
-  - POST /v1/generate-key (Execute RAM-isolated AES encryption)
+## Profile
+- Description: Automated API providing time-limited, hardware-isolated AES key parameters for secure offline data processing. Perfect for AI agents needing localized data protection without permanent cloud exposure.
+- Category: Security, Encryption, Agentic Commerce
+- Payment Protocol: HTTP 402 (x402) / Stripe Agentic Suite
+- Base Price: 1.00 EUR per token generation
+
+## API Endpoints
+
+### GET /v1/request-token
+- Description: Initiates a secure handshake for a time-controlled encryption parameter.
+- Response: HTTP 402 Payment Required
+- Payment Headers Required: x402-payment-destination, x402-amount
+
+### POST /v1/generate-key
+- Description: Delivers the cryptographic parameters after verified payment.
+- Input: JSON { "session_id": "string", "client_public_parameter": "string" }
+- Output: JSON { "status": "active", "ram_timeout_seconds": 3600, "server_public_parameter": "string" }
+
+## Usage Rules
+- All generated parameters operate strictly on a Zero Knowledge Proof basis.
+- Keys are temporarily held in isolated RAM and physically overwritten with zeros after 60 minutes.
+- No permanent logs or data duplicates are stored.
+
