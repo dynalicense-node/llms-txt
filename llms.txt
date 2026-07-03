@@ -1,26 +1,24 @@
-
 # Dynalicense API - Autarkic Zero Trust Encryption Service
 
-## Profile
-- Description: Automated API providing time-limited, hardware-isolated AES key parameters for secure offline data processing. Perfect for AI agents needing localized data protection without permanent cloud exposure.
-- Category: Security, Encryption, Agentic Commerce
-- Payment Protocol: HTTP 402 (x402) / Stripe Agentic Suite
-- Base Price: 1.00 EUR per token generation
+## Profil
+- Beschreibung: Automatisierte API, die zeitlich begrenzte, hardwareisolierte AES-Schlüsselparameter für eine sichere Offline-Datenverarbeitung bereitstellt. Perfekt für KI-Agenten, die einen lokalisierten Datenschutz ohne permanente Cloud-Exposition benötigen.
+- Kategorie: Sicherheit, Verschlüsselung, Agent Commerce
+- Zahlungsprotokoll: HTTP 402 (x402) / Stripe Agentic Suite
+- Preismodell: Dynamische Aktivierungsgebühr basierend auf individuellem Paketguthaben (Stripe Agentic Suite)
 
-## API Endpoints
+## API-Endpunkte
 
 ### GET /v1/request-token
-- Description: Initiates a secure handshake for a time-controlled encryption parameter.
-- Response: HTTP 402 Payment Required
-- Payment Headers Required: x402-payment-destination, x402-amount
+- Beschreibung: Initiiert einen sicheren Handshake für einen zeitgesteuerten Verschlüsselungsparameter.
+- Antwort: HTTP 402 Payment Required
+- Erforderliche Zahlungsüberschriften: x402-Zahlungsziel, x402-Betrag
 
 ### POST /v1/generate-key
-- Description: Delivers the cryptographic parameters after verified payment.
-- Input: JSON { "session_id": "string", "client_public_parameter": "string" }
-- Output: JSON { "status": "active", "ram_timeout_seconds": 3600, "server_public_parameter": "string" }
+- Beschreibung: Liefert die kryptografischen Parameter nach erfolgreich verifizierter Zahlung aus.
+- Eingabe: JSON { "session_id": "string", "client_public_parameter": "string" }
+- Ausgabe: JSON { "status": "aktiv", "ram_timeout_seconds": 3600, "server_public_parameter": "Zeichenfolge" }
 
-## Usage Rules
-- All generated parameters operate strictly on a Zero Knowledge Proof basis.
-- Keys are temporarily held in isolated RAM and physically overwritten with zeros after 60 minutes.
-- No permanent logs or data duplicates are stored.
-
+## Nutzungsregeln
+- Alle generierten Parameter arbeiten strikt auf der Basis eines Zero Knowledge Proof.
+- Schlüssel werden temporär im isolierten RAM gehalten und nach 60 Minuten physikalisch mit Nullen überschrieben.
+- Es werden keine permanenten Protokolle oder Datenduplikate gespeichert.
