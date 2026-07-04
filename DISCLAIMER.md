@@ -1,0 +1,1 @@
+Die bereitgestellten kryptographischen Parameter dienen ausschließlich der Unterstützung autorisierter Prozesse. Der Betreiber übernimmt keine Haftung für Schäden, die aus der Anwendung oder fehlerhaften Integration resultieren. Die Nutzung erfolgt eigenverantwortlich durch den Anwender.

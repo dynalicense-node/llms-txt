@@ -1,0 +1,1 @@
+Die Nutzung dieser Schnittstelle unterliegt der Einhaltung geltender Gesetze. Missbräuchliche Verwendung, Angriffe auf die Infrastruktur oder Versuche der Manipulation führen zum sofortigen Ausschluss. Der Betreiber behält sich das Recht vor, den Zugriff jederzeit ohne Vorankündigung zu beschränken.
