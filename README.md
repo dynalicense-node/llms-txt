@@ -17,4 +17,4 @@ Der Zugriff erfolgt ausschließlich über validierte Stripe-Token-Stufen, die ei
 * [Impressum](IMPRESSUM.md)
 * [Datenschutz](DATENSCHUTZ.md)
 * [Nutzungsbedingungen](NUTZUNGSBEDINGUNGEN.md)
-* [Disclaimer](DISCLAIMER.md)
+* [HAFTUNGSAUSSCHLUSS](HAFTUNGSAUSSCHLUSS.md)
