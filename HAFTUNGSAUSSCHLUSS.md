@@ -1,4 +1,4 @@
-PROTOKOLL: RECHTLICHER SCHUTZWALL (DISCLAIMER)
+PROTOKOLL: RECHTLICHER SCHUTZWALL (HAFTUNGSAUSSCHLUSS)
 ​
 1. NUTZUNG AUF EIGENE GEFAHR:
 Die Software wird "wie besehen" (as-is) bereitgestellt. dynalicense übernimmt keinerlei Haftung für Schäden an Hardware, Software oder Datenverlusten, die durch die Nutzung oder Fehlfunktion entstehen könnten.
